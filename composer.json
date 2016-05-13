@@ -1,16 +1,23 @@
 {
     "name": "webdevbr/eloquent-zf2",
     "description": "Integration of Illuminate\\Database with Zend Framework 2",
+    "type": "zf-module",
     "license": "BSD-3-Clause",
     "keywords": [
         "framework",
         "zf2",
         "eloquent",
-        "illuminate"
+        "illuminate",
+        "orm"
     ],
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.5.9",
         "illuminate/database": "^5.2",
         "illuminate/events": "^5.2"
+    },
+    "autoload": {
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
