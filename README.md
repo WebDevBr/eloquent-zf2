@@ -4,7 +4,7 @@
 
 Run:
 
-	composer require 
+	composer require webdevbr/eloquent-zf2
 
 
 ## Configuration
